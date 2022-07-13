@@ -42,3 +42,13 @@ class Node {
   }
   
   const myQueue = new Queue();
+
+  myQueue.enqueue(1)
+  myQueue.enqueue(2)
+  myQueue.enqueue(3)
+  myQueue.enqueue(4)
+  console.log('primer encolado',  myQueue);
+  console.log("primer peek ", myQueue.peek());
+  myQueue.dequeue();
+  console.log("descolado ",  myQueue);
+  console.log("segundo peek ", myQueue.peek());
